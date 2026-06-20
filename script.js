@@ -28,7 +28,7 @@ function renderMenu(filter = 'all') {
       <div class="card-img" style="background-image: url('images/${item.image}')"></div>
       <div class="card-body">
         <h3>${item.name}</h3>
-        <p class="price">$${item.price.toFixed(2)}</p>
+        <p class="price">₵${item.price.toFixed(2)}</p>
       </div>
     `;
     menuGrid.appendChild(card);
