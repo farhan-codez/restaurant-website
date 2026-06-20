@@ -1,14 +1,14 @@
 const menuItems = [
-  { name: 'Bruschetta', category: 'appetizer', price: 8.99, image: 'pexels-rachel-claire-5863618.jpg' },
-  { name: 'Stuffed Mushrooms', category: 'appetizer', price: 10.49, image: 'pexels-erikanuor-12263086.jpg' },
-  { name: 'Calamari', category: 'appetizer', price: 11.99, image: 'pexels-filipp-romanovski-297235844-20185224.jpg' },
-  { name: 'Grilled Salmon', category: 'main', price: 22.99, image: 'pexels-hannah-barata-776560167-28128244.jpg' },
-  { name: 'Steak Frites', category: 'main', price: 26.99, image: 'pexels-keesha-s-kitchen-22731136-13915043.jpg' },
-  { name: 'Pasta Carbonara', category: 'main', price: 17.99, image: 'pexels-davegarcia-33432667.jpg' },
-  { name: 'Chicken Marsala', category: 'main', price: 19.99, image: 'pexels-saizstudio-17952748.jpg' },
-  { name: 'Tiramisu', category: 'dessert', price: 8.49, image: 'pexels-shalom-dare-342799635-14079234.jpg' },
-  { name: 'Panna Cotta', category: 'dessert', price: 7.99, image: 'pexels-szymon-shields-1503561-33033777.jpg' },
-  { name: 'Gelato Trio', category: 'dessert', price: 9.49, image: 'pexels-szymon-shields-1503561-33033817.jpg' },
+  { name: 'Bruschetta', category: 'appetizer', price: 18, image: 'pexels-rachel-claire-5863618.jpg' },
+  { name: 'Stuffed Mushrooms', category: 'appetizer', price: 22, image: 'pexels-erikanuor-12263086.jpg' },
+  { name: 'Calamari', category: 'appetizer', price: 24, image: 'pexels-filipp-romanovski-297235844-20185224.jpg' },
+  { name: 'Grilled Salmon', category: 'main', price: 46, image: 'pexels-hannah-barata-776560167-28128244.jpg' },
+  { name: 'Steak Frites', category: 'main', price: 54, image: 'pexels-keesha-s-kitchen-22731136-13915043.jpg' },
+  { name: 'Pasta Carbonara', category: 'main', price: 36, image: 'pexels-davegarcia-33432667.jpg' },
+  { name: 'Chicken Marsala', category: 'main', price: 40, image: 'pexels-saizstudio-17952748.jpg' },
+  { name: 'Tiramisu', category: 'dessert', price: 17, image: 'pexels-shalom-dare-342799635-14079234.jpg' },
+  { name: 'Panna Cotta', category: 'dessert', price: 16, image: 'pexels-szymon-shields-1503561-33033777.jpg' },
+  { name: 'Gelato Trio', category: 'dessert', price: 19, image: 'pexels-szymon-shields-1503561-33033817.jpg' },
 ];
 
 const menuGrid = document.getElementById('menuGrid');
