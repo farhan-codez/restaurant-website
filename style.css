@@ -260,6 +260,12 @@ section h2 {
   justify-content: center;
 }
 
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
