@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savor & Spice | Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Savor & Spice</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/pexels-rachel-claire-5863618.jpg') center/cover no-repeat fixed;">
+    <div class="hero-content">
+      <h1>Welcome to Savor & Spice</h1>
+      <p>Experience the finest flavors crafted with passion and tradition.</p>
+      <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="appetizer">Appetizers</button>
+      <button class="filter-btn" data-filter="main">Mains</button>
+      <button class="filter-btn" data-filter="dessert">Desserts</button>
+    </div>
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Founded in 2010, Savor & Spice brings together the bold flavors of the Mediterranean with a modern twist. Every dish is made from scratch using locally sourced ingredients.</p>
+        <p>Our chefs have trained in kitchens across the world, bringing you an unforgettable dining experience right in the heart of the city.</p>
+      </div>
+      <div class="about-image">
+        <img src="images/pexels-davegarcia-33432667.jpg" alt="Restaurant interior" class="about-img">
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Our Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/pexels-tochukwu-ekeh-2149052634-37648017.jpg" alt="Dish 1">
+      <img src="images/pexels-erikanuor-12263086.jpg" alt="Dish 2">
+      <img src="images/pexels-filipp-romanovski-297235844-20185224.jpg" alt="Dish 3">
+      <img src="images/pexels-saizstudio-17952748.jpg" alt="Dish 4">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-wrapper">
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>📍 123 Flavor Street, Foodville</p>
+        <p>📞 (555) 123-4567</p>
+        <p>✉️ hello@savorandspice.com</p>
+        <p>🕒 Mon-Sat: 11AM - 10PM | Sun: 12PM - 8PM</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Savor & Spice. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
