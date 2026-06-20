@@ -1,5 +1,6 @@
 {
-  "buildCommand": null,
-  "outputDirectory": ".",
-  "framework": null
+  "rewrites": [
+    { "source": "/Website", "destination": "/index.html" },
+    { "source": "/Website/:path*", "destination": "/:path*" }
+  ]
 }
